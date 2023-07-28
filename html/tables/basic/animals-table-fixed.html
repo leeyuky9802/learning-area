@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Animals table</title>
-    <link href="minimal-table.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Animals table</h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Animal Classification</title>
+  <link href="minimal-table.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Animal Classification</h1>
 
-    <table>
-      <tr>
-        <th colspan="2">Animals</th>
-      </tr>
-      <tr>
-        <th colspan="2">Hippopotamus</th>
-      </tr>
-      <tr>
-        <th rowspan="2">Horse</th>
-        <td>Mare</td>
-      </tr>
-      <tr>
-        <td>Stallion</td>
-      </tr>
-      <tr>
-        <th colspan="2">Crocodile</th>
-      </tr>
-      <tr>
-        <th rowspan="2">Chicken</th>
-        <td>Hen</td>
-      </tr>
-      <tr>
-        <td>Rooster</td>
-      </tr>
-    </table>
+<table border="1">
 
-
-  </body>
+  <tr>
+    <th>Animal</th>
+    <th>Class</th>
+    <th>Order</th>
+  </tr>
+  <tr>
+    <th rowspan="2" colspan="2">Mammalia</th>
+    <td>Primates</td>
+  </tr>
+  <tr>
+    <td>Carnivora</td>
+  </tr>
+  <tr>
+    <td>Hippopotamus</td>
+    <td rowspan="2" colspan="2">Artiodactyla</td>
+  </tr>
+  <tr>
+    <td>Pig</td>
+  </tr>
+</table>
+</body>
 </html>
